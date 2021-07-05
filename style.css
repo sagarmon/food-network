@@ -1,3 +1,46 @@
-.heading-line {
+body {
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.gray-color {
+  color: #585858;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, orange, tomato);
+  padding: 20px 35px;
+  color: white;
+  font-weight: 600;
+  border-radius: 35px;
+}
+
+.flexible-container {
+  display: flex;
+  margin: 80px 20px 100px 50px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.half-width img {
+  width: 90%;
+}
+
+.margin-class {
+  margin-top: 130px;
+}
+
+section p {
+  font-size: 20px;
 }

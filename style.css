@@ -7,12 +7,18 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .orange-color {
   color: orange;
 }
 
 .gray-color {
   color: #585858;
+  padding-right: 200px;
 }
 
 .link-button {
@@ -43,4 +49,18 @@ h1 {
 
 section p {
   font-size: 20px;
+}
+
+#second-image {
+  height: 500px;
+  width: 315px;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.background-banner {
+  margin: 0;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
 }

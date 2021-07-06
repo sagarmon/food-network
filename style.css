@@ -1,14 +1,20 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
 }
 
 h2 {
   font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -18,7 +24,15 @@ h2 {
 
 .gray-color {
   color: #585858;
+}
+
+#padding-right {
   padding-right: 200px;
+}
+
+#padding-left-right {
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 .link-button {
@@ -51,11 +65,11 @@ section p {
   font-size: 20px;
 }
 
-#second-image {
+#about-me-image {
   height: 500px;
   width: 315px;
   padding-left: 200px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .background-banner {
@@ -63,4 +77,36 @@ section p {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   padding-bottom: 100px;
+}
+
+.recipies {
+  text-align: center;
+}
+
+.recipe-item {
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 3.8%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px gray;
+}
+
+.recipe-container {
+  display: flex;
+  margin-right: 130px;
+}
+
+.recipe-container p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.recipe-image-layout {
+  width: 329px;
+  height: 250px;
 }

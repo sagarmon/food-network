@@ -19,11 +19,11 @@ h3 {
 }
 
 .orange-color {
-  color: orange;
+  color: rgb(249, 139, 79);
 }
 
 .gray-color {
-  color: #585858;
+  color: rgb(87, 87, 87);
 }
 
 #padding-right {
@@ -113,7 +113,9 @@ section p {
 
 .social-media-container {
   display: flex;
+  padding-top: 45px;
   padding-left: 260px;
+  padding-bottom: 45px;
   margin-left: 3.7%;
   margin-right: 3.5%;
   border-radius: 20px;
@@ -130,7 +132,7 @@ section p {
 }
 
 .footer {
-  background-color: black;
+  background-color: rgb(11, 13, 23);
   text-align: center;
   padding-top: 10px;
   padding-bottom: 100px;

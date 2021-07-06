@@ -164,9 +164,5 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: black;
-}
-
-.active {
-  background-color: #04aa6d;
+  background-color: orange;
 }

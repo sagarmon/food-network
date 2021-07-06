@@ -103,6 +103,7 @@ section p {
 
 .recipe-container p {
   font-size: 17px;
+  font-weight: 200;
 }
 
 .recipe-image-layout {

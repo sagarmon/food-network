@@ -83,6 +83,11 @@ section p {
   text-align: center;
 }
 
+.recipe-container {
+  display: flex;
+  margin-right: 130px;
+}
+
 .recipe-item {
   width: 25%;
   margin-top: 5%;
@@ -96,11 +101,6 @@ section p {
   box-shadow: 2px 2px 20px gray;
 }
 
-.recipe-container {
-  display: flex;
-  margin-right: 130px;
-}
-
 .recipe-container p {
   font-size: 17px;
 }
@@ -108,4 +108,22 @@ section p {
 .recipe-image-layout {
   width: 329px;
   height: 250px;
+}
+
+.social-media-container {
+  display: flex;
+  padding-left: 260px;
+  margin-left: 3.7%;
+  margin-right: 3.5%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.social-media-item {
+  width: 28%;
+  margin-right: 40px;
+}
+
+.social-media-item p {
+  font-size: 15px;
 }
